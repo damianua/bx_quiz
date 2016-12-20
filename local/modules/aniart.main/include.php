@@ -16,11 +16,16 @@ Bitrix\Main\Loader::includeModule('catalog');
 Bitrix\Main\Loader::includeModule('sale');
 
 app()->bind([
-	'Product' => '\Aniart\Main\Models\StubProduct'
+	'Product' => '\Aniart\Main\Models\CatalogProduct'
 ]);
+
+app()->bind([
+    'Cacher' => '\Aniart\Main\Cacher\BXCacheCell'
+]);
+
 app()->singleton([
 	'ProductsRepository' => function(\Aniart\Main\ServiceLocator $locator){
-		return new \Aniart\Main\Repositories\StubProductsRepository(IB_PRODUCTS_ID);
+		return new \Aniart\Main\Repositories\CatalogProductsRepository(CATALOG_IBLOCK_ID);
 	}
 ]);
 //Ajax-обработчики
