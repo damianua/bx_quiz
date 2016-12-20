@@ -4,7 +4,7 @@
 namespace Aniart\Seo\Models;
 
 
-use Aniart\Main\Interfaces\SeoParamsInterface;
+use Aniart\Seo\Interfaces\SeoParamsInterface;
 use Aniart\Main\Models\AbstractHLElementModel;
 
 class SeoPage extends AbstractHLElementModel implements SeoParamsInterface

@@ -16,7 +16,7 @@ app()->bind([
 	'SeoPage' => '\Aniart\Seo\Models\SeoPage',
 ]);
 app()->singleton([
-	'SeoParamsCollector' => '\Aniart\Main\Seo\SeoParamsCollector',
+	'SeoParamsCollector' => '\Aniart\Seo\Seo\SeoParamsCollector',
 	'SeoPagesRepository' => function(\Aniart\Main\ServiceLocator $locator){
 		return new Aniart\Seo\Repositories\SeoPagesRepository(HL_SEO_PAGES_ID);
 	},

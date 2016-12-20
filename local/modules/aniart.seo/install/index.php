@@ -31,13 +31,13 @@ class aniart_seo extends CModule
 
     private function registerEvents() {
         $eventManager = EventManager::getInstance();
-        $eventManager->unRegisterEventHandler('main', 'OnEpilog', 'aniart.seo', ['\Aniart\Seo\Observers\BitrixObserver', 'onEpilog']);
+        $eventManager->registerEventHandler('main', 'OnEpilog', 'aniart.seo', '\Aniart\Seo\Observers\BitrixObserver', 'onEpilog');
 
     }
 
     private function unregisterEvents() {
         $eventManager = EventManager::getInstance();
-        $eventManager->registerEventHandler('main', 'OnEpilog', 'aniart.seo', ['\Aniart\Seo\Observers\BitrixObserver', 'onEpilog']);
+        $eventManager->unRegisterEventHandler('main', 'OnEpilog', 'aniart.seo', '\Aniart\Seo\Observers\BitrixObserver', 'onEpilog');
 
     }
 }
