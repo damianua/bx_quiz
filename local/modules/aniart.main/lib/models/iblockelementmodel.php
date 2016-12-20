@@ -1,7 +1,7 @@
 <?php 
 namespace Aniart\Main\Models;
 
-use Aniart\Main\Interfaces\SeoParamsInterface;
+use Aniart\Seo\Interfaces\SeoParamsInterface;
 use Aniart\Main\Interfaces\VisitableInterface;
 use Aniart\Main\Interfaces\VisitorInterface;
 use Aniart\Main\Models\IblockSectionModel as Section;

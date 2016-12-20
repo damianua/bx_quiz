@@ -1,7 +1,7 @@
 <?php 
 namespace Aniart\Main\Models;
 
-use Aniart\Main\Interfaces\SeoParamsInterface;
+use Aniart\Seo\Interfaces\SeoParamsInterface;
 use Bitrix\Iblock\InheritedProperty\SectionValues;
 
 class IblockSectionModel extends AbstractModel implements SeoParamsInterface
