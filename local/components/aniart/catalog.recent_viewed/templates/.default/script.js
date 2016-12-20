@@ -16,11 +16,15 @@
 			this.$delete = this.$el.find(this.deleteSelector);
 			this.$delete.on('click', function(){
 				$.post(_this.ajaxHandler, {
-					handler: 'reсent_viewed',
-					f: 'deleteItem',
+					handler: 'recent_viewed',
+					func: 'deleteItem',
 					productId: productId
 				}, function(response){
-					// в случае успешного запроса скрываем удаленный (текущий элемент)
+					if (response.status == 'ok') {
+						_this.$el.remove();
+					} else {
+						alert(response.message);
+					}
 				}, 'json')
 			});
 		}
