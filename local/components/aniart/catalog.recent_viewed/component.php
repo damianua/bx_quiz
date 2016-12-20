@@ -14,7 +14,8 @@ $filter = array('=FUSER_ID' => $saleUserID, '=SITE_ID' => SITE_ID);
 $dbl = CatalogViewedProductTable::getList(array(
     'select' => array('PRODUCT_ID', 'ELEMENT_ID'),
     'filter' => $filter,
-    'order' => array('DATE_VISIT' => 'DESC')
+    'order' => array('DATE_VISIT' => 'DESC'),
+    'limit' => 5
 ));
 
 while ($res = $dbl->Fetch()) {
@@ -28,11 +29,13 @@ if (!$arResult = $cacheCell->load()) {
     if ($arParams['ELEMENTS_ID']) {
         $arResult['ELEMENTS'] = $productRepository->getItems([
             'filter' => ['ID' => $arParams['ELEMENTS_ID']],
-            'select' => ['CATALOG_GROUP_' . $arParams["PRICE_ID"]]
+            'select' => ['CATALOG_GROUP_' . $arParams["PRICE_ID"]],
+            'product_params' => ['PRICE_ID' => $arParams['PRICE_ID']]
         ]);
     }
         $cacheCell->save($arResult);
 
 }
+if (empty($arResult['ELEMENTS'])) return;
 
 $this->IncludeComponentTemplate();
