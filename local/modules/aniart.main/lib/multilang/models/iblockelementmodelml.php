@@ -7,8 +7,8 @@ namespace Aniart\Main\Multilang\Models;
 use Aniart\Main\Models\IblockElementModel;
 use Aniart\Main\Multilang\I18n;
 use Aniart\Main\Multilang\Interfaces\MultilangInterface;
-use Aniart\Seo\Multilang\Interfaces\SeoParamsMLInterface;
-use Aniart\Seo\Multilang\MultiLangSeoParamsTrait;
+use Aniart\Main\Multilang\Interfaces\SeoParamsMLInterface;
+use Aniart\Main\Multilang\MultiLangSeoParamsTrait;
 
 class IblockElementModelML extends IblockElementModel implements MultilangInterface, SeoParamsMLInterface
 {
