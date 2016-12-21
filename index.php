@@ -151,4 +151,5 @@ $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 	),
 	false
 );?>
+<?$APPLICATION->IncludeFile('/include/recent_viewed_product.php') ?>
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
