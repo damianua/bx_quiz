@@ -1,5 +1,5 @@
 <?php
-namespace Aniart\Main\Seo;
+namespace Aniart\Seo;
 
 use Aniart\Main\Interfaces\SeoParamsInterface;
 use Bitrix\Main\Type\ParameterDictionary;
