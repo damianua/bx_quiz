@@ -4,11 +4,42 @@
 	background: url("icon-delete.png") no-repeat;
 	position: absolute;
 	cursor: pointer;
-	top: 5px;
+	top: 15px;
 	right: 15px;
 	display: none;
 }
 
 .bx_catalog_item:hover .delete-recent-item{
 	display: block;
+}
+.item-cnt {
+    height: 300px;
+    width: 200px;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-size: cover;
+    box-shadow: 0 0 1px 1px;
+    margin: 10px;
+}
+
+.bx_catalog_item_title a {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    display: block;
+    width: 190px;
+    background-color: rgba(255,255,255,0.5);
+    min-height: 40px;
+    color: #333;
+}
+.bx_catalog_item_title a:hover {
+    background-color: rgba(255,255,255,1);
+    color: #23527c;
+}
+.bx_catalog_item {
+    float: left;
+}
+.bx_item_list_title{
+    font-weight: 500;
+    font-size: 30px;
 }

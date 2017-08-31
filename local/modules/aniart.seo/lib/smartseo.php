@@ -1,6 +1,6 @@
 <?php 
 
-namespace Aniart\Main\SmartSeo;
+namespace Aniart\Seo;
 
 use Aniart\Main\SmartSeo\Interfaces\PagesRepositoryInterface;
 use Aniart\Main\Traits\Singleton;
@@ -16,7 +16,7 @@ class SmartSeo
      */
     protected static $repository = null;
 	
-	public function init(Interfaces\PagesRepositoryInterface $repository)
+	public function init(PagesRepositoryInterface $repository)
 	{
 		global $APPLICATION;
 		$this->page = $repository->getByUri($APPLICATION->GetCurPage());
