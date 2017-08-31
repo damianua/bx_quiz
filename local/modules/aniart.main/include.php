@@ -15,11 +15,11 @@ Bitrix\Main\Loader::includeModule('iblock');
 Bitrix\Main\Loader::includeModule('catalog');
 Bitrix\Main\Loader::includeModule('sale');
 
-app()->bind([
-	'SeoPage' => '\Aniart\Main\Models\SeoPage',
+app()->bind(array(
+	//'SeoPage' => '\Aniart\Main\Models\SeoPage',
 	'Product' => '\Aniart\Main\Models\StubProduct'
-]);
-app()->singleton([
+));
+app()->singleton(array(
 	'SeoParamsCollector' => '\Aniart\Main\Seo\SeoParamsCollector',
 	'SeoPagesRepository' => function(\Aniart\Main\ServiceLocator $locator){
 		return new Aniart\Main\Repositories\SeoPagesRepository(HL_SEO_PAGES_ID);
@@ -35,9 +35,9 @@ app()->singleton([
 	'ProductsRepository' => function(\Aniart\Main\ServiceLocator $locator){
 		return new \Aniart\Main\Repositories\StubProductsRepository(IB_PRODUCTS_ID);
 	}
-]);
+));
 //Ajax-обработчики
-\Aniart\Main\Ajax\AjaxHandlerFactory::init([
+\Aniart\Main\Ajax\AjaxHandlerFactory::init(array(
 	'basket' => '\Aniart\Main\Ajax\Handlers\BasketAjaxHandler',
-	'recent_viewed' => '\Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler'
-]);
+	'recentviewed' => '\Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler',
+));
