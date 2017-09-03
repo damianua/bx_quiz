@@ -1,8 +1,13 @@
-<?if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
-$arTemplate = Array(
-	"NAME"=>GetMessage("CSST_TEMPLATE_NAME"), 
-	"EDITOR_STYLES" => array (
-		'/bitrix/css/main/bootstrap.css',
-		'/bitrix/css/main/font-awesome.css',
-	)
-);?>
+<?
+$arTemplate = array (
+  'NAME' => 'Новый адаптивный шаблон интернет-магазина',
+  'DESCRIPTION' => '',
+  'SORT' => '',
+  'TYPE' => '',
+  'EDITOR_STYLES' => 
+  array (
+    0 => '/bitrix/css/main/bootstrap.css',
+    1 => '/bitrix/css/main/font-awesome.css',
+  ),
+);
+?>

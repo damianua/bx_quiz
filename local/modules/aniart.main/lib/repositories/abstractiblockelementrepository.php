@@ -44,8 +44,12 @@ abstract class AbstractIblockElementRepository implements ErrorableInterface
      * @param array $arSelectFields
      * @return \Aniart\Main\Models\AbstractModel[]|array
      */
-    public function getList(array $arOrder = Array("SORT"=>"ASC"), array $arFilter = Array(), $arGroupBy = false, $arNavStartParams = false,
-                                   array $arSelectFields=Array())
+    public function getList(
+        array $arOrder = Array("SORT"=>"ASC"),
+        array $arFilter = Array(),
+        $arGroupBy = false,
+        $arNavStartParams = false,
+        array $arSelectFields=Array())
     {
         $result = array();
       	$arFilter['IBLOCK_ID'] = $this->iblockId;

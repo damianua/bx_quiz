@@ -119,9 +119,7 @@ $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 		"USE_PRICE_COUNT" => "N",
 		"USE_PRODUCT_QUANTITY" => "N"
 	)
-);?>
-
- <?$APPLICATION->IncludeComponent(
+);?> <?$APPLICATION->IncludeComponent(
 	"aniart:catalog.recent_viewed",
 	"",
 	Array(
@@ -130,7 +128,6 @@ $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 		"COUNT_ELEMENT" => "5",
 		"FILTER_NAME" => "",
 		"NOINDEX" => "N",
-		"QUANTITY" => "1",
 		"SORT_BY1" => "ACTIVE_FROM",
 		"SORT_BY2" => "SORT",
 		"SORT_ORDER1" => "DESC",

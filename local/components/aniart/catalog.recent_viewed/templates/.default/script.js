@@ -19,23 +19,23 @@ var AjaxViewedProduct = (function (App) {
 				_this = this;
 			
 			$(_this.block.item).on('click', _this.block.delete_button, function () {
-				
-			     var el_id = $(this).closest(_this.block.item).data("item");
-			     var el_dom =$(this).closest(_this.block.item);
-			     
-			     if(el_id){
-				     
-				     $.post(_this.ajaxHandler, {
-					     handler: 'recentviewed',
-					     func: 'deleteItem',
-					     productId: el_id
-				     }, function(response){
-				     	
-					     if(response.status == 'ok'){
-					     	el_dom.hide();
-					     }
-				     }, 'json')
-			     }
+
+                var el_id = $(this).closest(_this.block.item).data("item");
+                var el_dom =$(this).closest(_this.block.item);
+
+                if(el_id){
+
+                    $.post(_this.ajaxHandler, {
+                        handler: 'recentviewed',
+                        func: 'deleteItem',
+                        productId: el_id
+                    }, function(response){
+                       console.log(response);
+                        if(response.status == 'ok'){
+                            el_dom.hide();
+                        }
+                    }, 'json')
+                }
 			});
 		},
 		init: function () {

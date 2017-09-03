@@ -4,6 +4,7 @@
 namespace Aniart\Main\Repositories;
 
 use \Bitrix\Catalog;
+
 class StubProductsRepository extends AbstractIblockElementRepository
 {
 	protected $arOrder;
@@ -43,7 +44,7 @@ class StubProductsRepository extends AbstractIblockElementRepository
 		$ids = array();
 		
 		$filter = array(
-			'=FUSER_ID' => $this->getUserID(),
+			'=FUSER_ID' => \CSaleBasket::GetBasketUserID(),
 			'=SITE_ID' => SITE_ID
 		);
 		
@@ -61,7 +62,8 @@ class StubProductsRepository extends AbstractIblockElementRepository
 		{
 			$ids[] = (int)$viewedProduct['ELEMENT_ID'];
 		}
-		
+
+
 		if(!empty($ids)) {
 			$arFilter = array(
 				'ID' => $ids

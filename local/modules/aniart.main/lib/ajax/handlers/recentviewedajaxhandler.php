@@ -8,9 +8,9 @@ class RecentViewedAjaxHandler extends AbstractAjaxHandler
 	protected function isExist($prodId)
 	{
 		\Bitrix\Main\Loader::includeModule('catalog');
-		global $USER;
+
 		$filter = array(
-			'FUSER_ID' => $USER->GetID(),
+			'FUSER_ID' => \CSaleBasket::GetBasketUserID(),
 			'ELEMENT_ID' => $prodId
 		);
 		

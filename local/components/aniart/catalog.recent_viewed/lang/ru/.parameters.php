@@ -12,7 +12,7 @@ $MESS["T_IBLOCK_DESC_IBORD2"] = "Поле для второй сортировк
 $MESS["T_IBLOCK_DESC_IBBY2"] = "Направление для второй сортировки";
 $MESS["T_IBLOCK_DESC_LIST_TYPE"] = "Тип информационного блока (используется только для проверки)";
 $MESS["T_IBLOCK_DESC_LIST_CONT"] = "Количество элементов на странице";
-;
+$MESS['COUNT_ELEMENT'] = "Количество эелементов";
 $MESS["T_IBLOCK_FILTER"] = "Фильтр";
 
 ?>
