@@ -66,3 +66,8 @@ function mb_ucfirst($string, $encoding = 'utf-8')
     $then = mb_substr($string, 1, $strlen - 1, $encoding);
     return mb_strtoupper($firstChar, $encoding) . $then;
 }
+function pre($array){
+	echo "<pre>";
+	print_r($array);
+	echo "</pre>";
+}
