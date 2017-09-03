@@ -1,37 +1,57 @@
-(function(Aniart){
-
-	var RecentViewedItem = Aniart.Widget.extend({
-
-		defaults: function(){
-			return {
-				ajaxHandler: '/ajax/common.php',
-				$delete: null,
-				deleteSelector: '.delete-recent-item'
-			}
+var AjaxViewedProduct = (function (App) {
+	
+	'use strict';
+	
+	window.App = App = App || {};
+	
+	return {
+		ajaxHandler: '/ajax/common.php',
+		block: {
+			item: '.bx_catalog_item',
+			delete_button: '.delete-recent-item',
 		},
+		_deleteProduct:function(el){
+		
+		
+		},
+		events: function () {
+			var _app = App,
+				_this = this;
+			
+			$(_this.block.item).on('click', _this.block.delete_button, function () {
 
-		initialize: function(){
-			var _this = this;
-			var productId = this.$el.data('id');
-			this.$delete = this.$el.find(this.deleteSelector);
-			this.$delete.on('click', function(){
-				$.post(_this.ajaxHandler, {
-					handler: 'reсent_viewed',
-					f: 'deleteItem',
-					productId: productId
-				}, function(response){
-					// в случае успешного запроса скрываем удаленный (текущий элемент)
-				}, 'json')
+                var el_id = $(this).closest(_this.block.item).data("item");
+                var el_dom =$(this).closest(_this.block.item);
+
+                if(el_id){
+
+                    $.post(_this.ajaxHandler, {
+                        handler: 'recentviewed',
+                        func: 'deleteItem',
+                        productId: el_id
+                    }, function(response){
+                       console.log(response);
+                        if(response.status == 'ok'){
+                            el_dom.hide();
+                        }
+                    }, 'json')
+                }
 			});
-		}
+		},
+		init: function () {
+			var _app = App,
+				_this = this;
+			
+			
+			
+			_this.events();
+		},
+		
+		
+		
+	}
+})(window.App);
 
-	});
-
-	$(document).ready(function(){
-		$('#recent_viewed_items .bx_catalog_item').each(function(){
-			var $item = $(this);
-			new RecentViewedItem($item);
-		});
-	});
-
-})(window.Aniart);
+$(document).ready(function () {
+	AjaxViewedProduct.init();
+});

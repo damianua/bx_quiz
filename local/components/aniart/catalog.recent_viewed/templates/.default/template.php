@@ -2,6 +2,7 @@
 use Aniart\Main\Interfaces\ProductInterface;
 
 if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
+
 if(empty($arResult['ELEMENTS'])){
 	return;
 }
@@ -15,7 +16,7 @@ if(empty($arResult['ELEMENTS'])){
 			 * @var ProductInterface $product
 			 */
 			?>
-			<div class="bx_catalog_item" style="position: relative">
+			<div class="bx_catalog_item" style="position: relative" data-item="<?=$product->getId() ?>">
 				<div class="">
 					<a href="<?=$product->getDetailPageUrl()?>"
 					   class="bx_catalog_item_images"
