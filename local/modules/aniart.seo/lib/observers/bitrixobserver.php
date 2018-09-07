@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Aniart\Main\Observers;
+namespace Aniart\Seo\Observers;
 
 use Aniart\Seo\SmartSeo\SmartSeo as SmartSeo;
 

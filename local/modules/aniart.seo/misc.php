@@ -6,7 +6,7 @@
 function seo($paramName = null, $paramValue = null, $overwrite = false)
 {
     /**
-     * @var \Aniart\Main\Seo\SeoParamsCollector $seo;
+     * @var \Aniart\Seo\Seo\SeoParamsCollector $seo;
      */
     $seo = app('SeoParamsCollector');
     if(!is_null($paramName)){
