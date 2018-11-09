@@ -13,10 +13,7 @@ class StubProductsRepository extends AbstractIblockElementRepository
 
 	public function getItemsByIds(array $ids = [])
 	{
-		return [
-			$this->newInstance(),
-			$this->newInstance(),
-			$this->newInstance(),
-		];
+		$result = $this->getList(array(), array("ID" => $ids), false, false, array("ID", "NAME", "DETAIL_PAGE_URL", "PREVIEW_PICTURE", "PROPERTY_MORE_PHOTO"), true);
+		return $result;
 	}
 }

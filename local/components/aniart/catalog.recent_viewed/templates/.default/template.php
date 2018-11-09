@@ -15,7 +15,7 @@ if(empty($arResult['ELEMENTS'])){
 			 * @var ProductInterface $product
 			 */
 			?>
-			<div class="bx_catalog_item" style="position: relative">
+			<div class="bx_catalog_item" data-id="<?=$product->getId()?>" style="position: relative">
 				<div class="">
 					<a href="<?=$product->getDetailPageUrl()?>"
 					   class="bx_catalog_item_images"

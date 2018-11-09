@@ -1,5 +1,6 @@
 <?php
-$arUrlRewrite = array (
+$arUrlRewrite=array (
+  0 => 
   array (
     'CONDITION' => '#^/bitrix/services/ymarket/#',
     'RULE' => '',
@@ -7,6 +8,7 @@ $arUrlRewrite = array (
     'PATH' => '/bitrix/services/ymarket/index.php',
     'SORT' => 100,
   ),
+  1 => 
   array (
     'CONDITION' => '#^/personal/order/#',
     'RULE' => '',
@@ -14,6 +16,7 @@ $arUrlRewrite = array (
     'PATH' => '/personal/order/index.php',
     'SORT' => 100,
   ),
+  2 => 
   array (
     'CONDITION' => '#^/personal/#',
     'RULE' => '',
@@ -21,6 +24,7 @@ $arUrlRewrite = array (
     'PATH' => '/personal/index.php',
     'SORT' => 100,
   ),
+  6 => 
   array (
     'CONDITION' => '#^/catalog/#',
     'RULE' => '',
@@ -28,6 +32,7 @@ $arUrlRewrite = array (
     'PATH' => '/catalog/index.php',
     'SORT' => 100,
   ),
+  4 => 
   array (
     'CONDITION' => '#^/store/#',
     'RULE' => '',
@@ -35,11 +40,12 @@ $arUrlRewrite = array (
     'PATH' => '/store/index.php',
     'SORT' => 100,
   ),
+  5 => 
   array (
     'CONDITION' => '#^/news/#',
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/news/index.php',
     'SORT' => 100,
-  )
+  ),
 );

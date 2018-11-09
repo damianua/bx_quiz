@@ -57,7 +57,7 @@ abstract class AbstractAjaxHandler implements AjaxHandlerInterface
      * Запускает обработчик
      */
     public function start()
-    {
+    { 
         $function = $this->getFunction();
         if(!empty($function) && method_exists($this, $function)){
             $this->{$function}();

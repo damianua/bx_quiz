@@ -42,10 +42,11 @@ abstract class AbstractIblockElementRepository implements ErrorableInterface
      * @param mixed $arGroupBy
      * @param mixed $arNavStartParams
      * @param array $arSelectFields
+     * @param bool $getPrice
      * @return \Aniart\Main\Models\AbstractModel[]|array
      */
     public function getList(array $arOrder = Array("SORT"=>"ASC"), array $arFilter = Array(), $arGroupBy = false, $arNavStartParams = false,
-                                   array $arSelectFields=Array())
+                                   array $arSelectFields=Array(), $getPrice = false)
     {
         $result = array();
       	$arFilter['IBLOCK_ID'] = $this->iblockId;
@@ -53,10 +54,24 @@ abstract class AbstractIblockElementRepository implements ErrorableInterface
         $rsElements = \CIBlockElement::GetList($arOrder, $arFilter, $arGroupBy, $arNavStartParams, $arSelectFields);
         if($rsElements->SelectedRowsCount() > 0){
             while($arElement = $rsElements->GetNext()){
+                if ($getPrice) {
+                    $price = $this->getOfferPrice($arElement["ID"]);
+                    $arElement = array_merge($arElement, $price);
+                }
 	            $result[$arElement['ID']] = $this->newInstance($arElement);
             }
         }
 
+        return $result;
+    }
+    public function getOfferPrice($productID)
+    {
+        $result = array();
+        $res = \CCatalogSKU::getOffersList($productID, $this->iblockId);
+        $firstOffer = reset($res[$productID]);
+        $arPrice = \CPrice::GetBasePrice($firstOffer["ID"]);
+        $result["PRICE"] = $arPrice["PRICE"];
+        $result["CURRENCY"] = $arPrice["CURRENCY"];
         return $result;
     }
 
