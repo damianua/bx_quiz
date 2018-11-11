@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 ?>
 <?
-$APPLICATION->IncludeComponent("bitrix:catalog", "catalog", Array(
+$APPLICATION->IncludeComponent("bitrix:catalog", "", Array(
 	"IBLOCK_TYPE" => "catalog",	// Тип инфоблока
 		"IBLOCK_ID" => "2",	// Инфоблок
 		"TEMPLATE_THEME" => "site",	// Цветовая тема
