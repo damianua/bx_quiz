@@ -7,7 +7,11 @@ use Aniart\Main\Interfaces\VisitorInterface;
 use Aniart\Main\Models\IblockSectionModel as Section;
 use Bitrix\Iblock\InheritedProperty\ElementValues;
 
+<<<<<<< HEAD
 class IblockElementModel extends AbstractModel implements VisitableInterface, SeoParamsInterface
+=======
+class IblockElementModel extends AbstractModel implements SeoParamsInterface
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 {
 	protected $sections;
     protected $seoParams;
@@ -165,5 +169,25 @@ class IblockElementModel extends AbstractModel implements VisitableInterface, Se
 
         return $this;
     }
+<<<<<<< HEAD
+=======
+
+
+
+    public function getPreviewPicture()
+    {
+        if (intval($this->PREVIEW_PICTURE) > 0){
+            $file = \CFile::ResizeImageGet($this->PREVIEW_PICTURE, array('width'=>250, 'height'=>300), BX_RESIZE_IMAGE_PROPORTIONAL, true);
+
+            return $file['src'];
+        }elseif (intval($this->DETAIL_PICTURE) >0){
+            $file = \CFile::ResizeImageGet($this->DETAIL_PICTURE, array('width'=>250, 'height'=>300), BX_RESIZE_IMAGE_PROPORTIONAL, true);
+
+            return $file['src'];
+        }else{
+            return  false;
+        }
+    }
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 }
 ?>

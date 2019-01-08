@@ -16,11 +16,20 @@
 			this.$delete = this.$el.find(this.deleteSelector);
 			this.$delete.on('click', function(){
 				$.post(_this.ajaxHandler, {
+<<<<<<< HEAD
 					handler: 'reсent_viewed',
 					f: 'deleteItem',
 					productId: productId
 				}, function(response){
 					// в случае успешного запроса скрываем удаленный (текущий элемент)
+=======
+					handler: 'recent_viewed',
+					func: 'deleteItem',
+					productId: productId
+				}, function(response){
+					// в случае успешного запроса скрываем удаленный (текущий элемент)
+					_this.$el.hide();
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 				}, 'json')
 			});
 		}

@@ -32,6 +32,7 @@ function app($abstract = null, $params = array()) {
 		return $app;
 	}
 	return $app->make($abstract, $params);
+<<<<<<< HEAD
 }
 
 function seo($paramName = null, $paramValue = null, $overwrite = false)
@@ -50,3 +51,6 @@ function seo($paramName = null, $paramValue = null, $overwrite = false)
     }
     return $seo;
 }
+=======
+}
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master

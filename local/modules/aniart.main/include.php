@@ -16,6 +16,7 @@ Bitrix\Main\Loader::includeModule('catalog');
 Bitrix\Main\Loader::includeModule('sale');
 
 app()->bind([
+<<<<<<< HEAD
 	'SeoPage' => '\Aniart\Main\Models\SeoPage',
 	'Product' => '\Aniart\Main\Models\StubProduct'
 ]);
@@ -32,6 +33,11 @@ app()->singleton([
 		} catch (Exception $e) {
 		}
 	},
+=======
+	'Product' => '\Aniart\Main\Models\StubProduct'
+]);
+app()->singleton([
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 	'ProductsRepository' => function(\Aniart\Main\ServiceLocator $locator){
 		return new \Aniart\Main\Repositories\StubProductsRepository(IB_PRODUCTS_ID);
 	}

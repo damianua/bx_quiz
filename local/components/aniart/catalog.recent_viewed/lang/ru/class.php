@@ -1,0 +1,7 @@
+<?
+$MESS['STANDARD_ELEMENTS_LIST_CLASS_IBLOCK_MODULE_NOT_INSTALLED'] = 'Модуль "Highload инфоблоки" не установлен';
+$MESS["CVP_MESS_BTN_BUY_DEFAULT"] = "Купить";
+$MESS["CVP_MESS_BTN_ADD_TO_BASKET_DEFAULT"] = "В корзину";
+$MESS["CVP_MESS_BTN_DETAIL_DEFAULT"] = "Подробнее";
+$MESS["CVP_MESS_BTN_SUBSCRIBE_DEFAULT"] = "Подписаться";
+?>

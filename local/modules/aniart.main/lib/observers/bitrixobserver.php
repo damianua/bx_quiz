@@ -1,10 +1,15 @@
 <?php
+<<<<<<< HEAD
 
 
 namespace Aniart\Main\Observers;
 
 use Aniart\Main\SmartSeo\SmartSeo as SmartSeo;
 
+=======
+namespace Aniart\Main\Observers;
+
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 class BitrixObserver
 {
     public static function onProlog()
@@ -17,7 +22,10 @@ class BitrixObserver
 
     public static function onEpilog()
     {
+<<<<<<< HEAD
         self::setSeoParams();
+=======
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
     }
 
     protected static function initAdditionalUserParams()
@@ -33,6 +41,7 @@ class BitrixObserver
             }
         }
     }
+<<<<<<< HEAD
 
     protected static function setSeoParams()
     {
@@ -49,4 +58,6 @@ class BitrixObserver
 	    }
         seo()->process();
     }
+=======
+>>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 }
