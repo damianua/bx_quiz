@@ -3,28 +3,6 @@
 
 namespace Aniart\Main\Models;
 
-<<<<<<< HEAD
-
-use Aniart\Main\Interfaces\ProductInterface;
-
-class StubProduct implements ProductInterface
-{
-
-	public function getPreviewPicture()
-	{
-		return '/upload/iblock/0cb/0cbcdd686c12b9217dee4c3367cec4a9.jpg';
-	}
-
-	public function getName()
-	{
-		return 'Товар '.randString(8);
-	}
-
-	public function getPrice($format = false)
-	{
-		$price = rand(1, 1000);
-		return $format ? CurrencyFormat($price, 'RUB') : $price;
-=======
 use Aniart\Main\Models\IblockElementModel;
 use Aniart\Main\Interfaces\ProductInterface;
 
@@ -36,8 +14,8 @@ class StubProduct extends IblockElementModel implements ProductInterface
         $this->fields  = $data;
     }
 
-	public function getPrice($format = false)
-	{
+    public function getPrice($format = false)
+    {
         $rsGroup = \Bitrix\Catalog\GroupTable::getList();
         while($arGroup=$rsGroup->fetch())
         {
@@ -55,16 +33,11 @@ class StubProduct extends IblockElementModel implements ProductInterface
             $priceFormat = \CCurrencyLang::CurrencyFormat($price['PRICE'],$price['CURRENCY'],'true');
         }
 
-		return $priceFormat;
->>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
-	}
+        return $priceFormat;
+    }
 
-	public function getDetailPageUrl()
-	{
-<<<<<<< HEAD
-		return '/catalog/pants/pants-flower-glade/';
-=======
+    public function getDetailPageUrl()
+    {
         return $this->fields['DETAIL_PAGE_URL'];
->>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
-	}
+    }
 }

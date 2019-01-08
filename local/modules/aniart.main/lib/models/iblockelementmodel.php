@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Aniart\Main\Models;
 
 use Aniart\Main\Interfaces\SeoParamsInterface;
@@ -7,13 +7,9 @@ use Aniart\Main\Interfaces\VisitorInterface;
 use Aniart\Main\Models\IblockSectionModel as Section;
 use Bitrix\Iblock\InheritedProperty\ElementValues;
 
-<<<<<<< HEAD
-class IblockElementModel extends AbstractModel implements VisitableInterface, SeoParamsInterface
-=======
 class IblockElementModel extends AbstractModel implements SeoParamsInterface
->>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 {
-	protected $sections;
+    protected $sections;
     protected $seoParams;
 
     public function getId()
@@ -31,60 +27,60 @@ class IblockElementModel extends AbstractModel implements SeoParamsInterface
         return $this->NAME;
     }
 
-	public function getCode()
-	{
-		return $this->CODE;
-	}
+    public function getCode()
+    {
+        return $this->CODE;
+    }
 
-	public function isActive()
-	{
-		return $this->ACTIVE == 'Y';
-	}
-	
-	public function getCreatedTimestamp()
-	{
-		return \MakeTimeStamp($this->DATE_CREATE);
-	}
+    public function isActive()
+    {
+        return $this->ACTIVE == 'Y';
+    }
 
-	public function obtainSections()
-	{
-		$rsSections = \CIBlockElement::GetElementGroups($this->getId(), true);
-		while($arSection = $rsSections->GetNext()){
-			$this->sections[$arSection['ID']] = new Section($arSection);
-		}
-		return $this;
-	}
-	/**
-	 * Элемент может принадлежать несколим секциям
-	 */
-	public function getSections()
-	{
-		if(is_null($this->sections)){
-			$this->obtainSections();
-		}
-		return $this->sections;
-	}
+    public function getCreatedTimestamp()
+    {
+        return \MakeTimeStamp($this->DATE_CREATE);
+    }
 
-	public function getSectionsId()
-	{
-		return array_keys($this->getSections());
-	}
+    public function obtainSections()
+    {
+        $rsSections = \CIBlockElement::GetElementGroups($this->getId(), true);
+        while($arSection = $rsSections->GetNext()){
+            $this->sections[$arSection['ID']] = new Section($arSection);
+        }
+        return $this;
+    }
+    /**
+     * Элемент может принадлежать несколим секциям
+     */
+    public function getSections()
+    {
+        if(is_null($this->sections)){
+            $this->obtainSections();
+        }
+        return $this->sections;
+    }
 
-	public function getSectionId()
-	{
-		return $this->IBLOCK_SECTION_ID;
-	}
-	
-	public function getSection()
-	{
+    public function getSectionsId()
+    {
+        return array_keys($this->getSections());
+    }
+
+    public function getSectionId()
+    {
+        return $this->IBLOCK_SECTION_ID;
+    }
+
+    public function getSection()
+    {
         if(!isset($this->SECTION) && $this->getSectionId() > 0){
             $this->SECTION = \CIBlockSection::GetByID($this->getSectionId())->Fetch();
         }
-		if(is_array($this->SECTION)){
-			$this->SECTION = new Section($this->SECTION);
-		}
-		return $this->SECTION;
-	}
+        if(is_array($this->SECTION)){
+            $this->SECTION = new Section($this->SECTION);
+        }
+        return $this->SECTION;
+    }
 
     public function accept(VisitorInterface $visitor)
     {
@@ -169,8 +165,6 @@ class IblockElementModel extends AbstractModel implements SeoParamsInterface
 
         return $this;
     }
-<<<<<<< HEAD
-=======
 
 
 
@@ -188,6 +182,5 @@ class IblockElementModel extends AbstractModel implements SeoParamsInterface
             return  false;
         }
     }
->>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 }
 ?>

@@ -5,19 +5,13 @@ namespace Aniart\Main\Ajax\Handlers;
 
 
 use Aniart\Main\Ajax\AbstractAjaxHandler;
-<<<<<<< HEAD
-=======
 use \Bitrix\Main;
 use \Bitrix\Catalog;
->>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
 
 class RecentViewedAjaxHandler extends AbstractAjaxHandler
 {
-	public function deleteItem()
-	{
-<<<<<<< HEAD
-		die('1');
-=======
+    public function deleteItem()
+    {
         if (!Main\Loader::includeModule('sale'))
         {
             return array();
@@ -48,6 +42,5 @@ class RecentViewedAjaxHandler extends AbstractAjaxHandler
                 $this->setOK('Ok');
             }
         }
->>>>>>> 8b2bd5b... TASC - modul SEO, component recent_viewed. On master
-	}
+    }
 }
