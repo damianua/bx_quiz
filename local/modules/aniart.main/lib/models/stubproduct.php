@@ -47,7 +47,7 @@ class StubProduct implements ProductInterface
 	public function getDetailPageUrl()
 	{
         $defaultDetailPageUrl = '/catalog/pants/pants-flower-glade/';
-        $detailPageUrl = $this->getByKey('NAME');
+        $detailPageUrl = $this->getByKey('DETAIL_PAGE_URL');
         return ($detailPageUrl) ?: $defaultDetailPageUrl;
 	}
 

@@ -45,15 +45,6 @@ while ($viewedProduct = $viewedIterator->fetch())
 
 //STUBS
 $productRepository = app()->make('ProductsRepository'); //same as app('ProductsRepository')
-//$arResult['ELEMENTS'] = $productRepository->getItemsByIds($ids);
-$arResult['ELEMENTS'] = $productRepository->getList(
-    array(),
-    array(
-        'ID' => $ids
-    ),
-    false,
-    false,
-    array('*')
-);
+$arResult['ELEMENTS'] = $productRepository->getItemsByIds($ids);
 
 $this->IncludeComponentTemplate();
