@@ -1,0 +1,1540 @@
+2019-01-19 18:42:22 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 18:46:49 - Host: 192.168.127.128:80 - FATAL - [ErrorException] E_ERROR
+Class Aniart\Main\Models\IblockElementModel contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (Aniart\Main\Interfaces\VisitableInterface::getPageTitle, Aniart\Main\Interfaces\VisitableInterface::getMetaTitle, Aniart\Main\Interfaces\VisitableInterface::getKeywords, ...) (0)
+/home/bitrix/www/local/modules/aniart.main/lib/models/iblockelementmodel.php:10
+----------
+2019-01-19 18:48:10 - Host: 192.168.127.128:80 - FATAL - [ErrorException] E_ERROR
+Class Aniart\Main\Models\IblockElementModel contains 4 abstract methods and must therefore be declared abstract or implement the remaining methods (Aniart\Main\Interfaces\VisitableInterface::getPageTitle, Aniart\Main\Interfaces\VisitableInterface::getMetaTitle, Aniart\Main\Interfaces\VisitableInterface::getKeywords, ...) (0)
+/home/bitrix/www/local/modules/aniart.main/lib/models/iblockelementmodel.php:10
+----------
+2019-01-19 18:48:45 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 18:51:56 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 1 passed to Aniart\Main\Multilang\I18n::__construct() must be an instance of Aniart\Main\Multilang\Interfaces\MessagesRepositoryInterface, null given (0)
+/home/bitrix/www/local/modules/aniart.main/lib/multilang/i18n.php:35
+#0: Aniart\Main\Multilang\I18n->__construct(NULL, NULL, NULL)
+	
+#1: ReflectionClass->newInstanceArgs(array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:129
+#2: Aniart\Main\ServiceLocator->newInstance(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:93
+#3: Aniart\Main\ServiceLocator->make(string)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#6: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:00:14 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 1 passed to Aniart\Main\Multilang\I18n::__construct() must be an instance of Aniart\Main\Multilang\Interfaces\MessagesRepositoryInterface, null given (0)
+/home/bitrix/www/local/modules/aniart.main/lib/multilang/i18n.php:35
+#0: Aniart\Main\Multilang\I18n->__construct(NULL, NULL, NULL)
+	
+#1: ReflectionClass->newInstanceArgs(array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:129
+#2: Aniart\Main\ServiceLocator->newInstance(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:93
+#3: Aniart\Main\ServiceLocator->make(string)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:25
+#6: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:03:05 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 1 passed to Aniart\Main\Multilang\I18n::__construct() must be an instance of Aniart\Main\Multilang\Interfaces\MessagesRepositoryInterface, null given (0)
+/home/bitrix/www/local/modules/aniart.main/lib/multilang/i18n.php:35
+#0: Aniart\Main\Multilang\I18n->__construct(NULL, NULL, NULL)
+	
+#1: ReflectionClass->newInstanceArgs(array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:129
+#2: Aniart\Main\ServiceLocator->newInstance(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:93
+#3: Aniart\Main\ServiceLocator->make(string)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#6: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:04:51 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 1 passed to Bitrix\Main\Loader::{closure}() must be an instance of Aniart\Main\Multilang\Interfaces\MessagesRepositoryInterface, instance of Aniart\Main\ServiceLocator given (0)
+/home/bitrix/www/local/modules/aniart.main/include.php:20
+#0: Bitrix\Main\Loader::{closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:97
+#2: Aniart\Main\ServiceLocator->make(string)
+	
+#3: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#4: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#5: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:06:28 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 2 passed to Bitrix\Main\Loader::{closure}() must be an instance of Aniart\Main\Multilang\Interfaces\MessagesRepositoryInterface, none given (0)
+/home/bitrix/www/local/modules/aniart.main/include.php:20
+#0: Bitrix\Main\Loader::{closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:97
+#2: Aniart\Main\ServiceLocator->make(string)
+	
+#3: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#4: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#5: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:08:22 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 1 passed to Bitrix\Main\Loader::{closure}() must be an instance of Aniart\Main\Multilang\Repositories\HLMessagesRepository, instance of Aniart\Main\ServiceLocator given (0)
+/home/bitrix/www/local/modules/aniart.main/include.php:20
+#0: Bitrix\Main\Loader::{closure}(object)
+	
+#1: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:97
+#2: Aniart\Main\ServiceLocator->make(string)
+	
+#3: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#4: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#5: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:09:53 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:24
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:16:43 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:16:48 - Host: 192.168.127.128:80 - FATAL - [ErrorException] E_ERROR
+Class 'Aniart\Seo\Repositories\AbstractHLBlockElementsRepository' not found (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:7
+----------
+2019-01-19 19:17:02 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:19:15 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.main/lib/observers/bitrixobserver.php:43
+#0: Aniart\Main\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.main/lib/observers/bitrixobserver.php:20
+#1: Aniart\Main\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-19 19:19:52 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:19:55 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.main/lib/observers/bitrixobserver.php:43
+#0: Aniart\Main\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.main/lib/observers/bitrixobserver.php:20
+#1: Aniart\Main\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-19 19:19:58 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.main/lib/observers/bitrixobserver.php:43
+#0: Aniart\Main\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.main/lib/observers/bitrixobserver.php:20
+#1: Aniart\Main\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/index.php:154
+----------
+2019-01-19 19:23:38 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:35 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:36 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:37 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:37 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:38 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:38 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:56 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:57 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:58 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:26:58 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:29:17 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:30:40 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:21
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 19:31:06 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 19:34:43 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [RuntimeException] 
+Abstract object("I18n") not bound (0)
+/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:88
+#0: Aniart\Main\ServiceLocator->make(string)
+	
+#1: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#2: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/multilang/models/iblockelementmodelml.php:21
+#3: Aniart\Main\Multilang\Models\IblockElementModelML->__construct()
+	/home/bitrix/www/test.php:54
+----------
+2019-01-19 19:34:45 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 19:36:35 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 19:37:16 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 19:38:24 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 19:40:54 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 23:54:58 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 23:55:50 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 23:56:01 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 23:57:39 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-19 23:58:27 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getList() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#0: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#1: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#2: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#3: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:30
+#4: Bitrix\Main\Loader::{closure}(object)
+	
+#5: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:108
+#6: Aniart\Main\ServiceLocator->make(string, array)
+	
+#7: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#8: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#9: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#10: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#11: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#12: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#13: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#14: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#15: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#16: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#17: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:13:46 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getList() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#0: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#1: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#2: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#3: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:30
+#4: Bitrix\Main\Loader::{closure}(object)
+	
+#5: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:108
+#6: Aniart\Main\ServiceLocator->make(string, array)
+	
+#7: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#8: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#9: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#10: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#11: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#12: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#13: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#14: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#15: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#16: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#17: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:13:50 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function getList() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#0: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#1: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#2: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#3: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:30
+#4: Bitrix\Main\Loader::{closure}(object)
+	
+#5: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:108
+#6: Aniart\Main\ServiceLocator->make(string, array)
+	
+#7: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#8: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#9: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#10: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#11: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#12: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#13: require_once(string)
+	/home/bitrix/www/bitrix/modules/conversion/tools/conversion/ajax_counter.php:35
+#14: require(string)
+	/home/bitrix/www/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2019-01-20 00:15:16 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:15:19 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require_once(string)
+	/home/bitrix/www/bitrix/modules/conversion/tools/conversion/ajax_counter.php:35
+#4: require(string)
+	/home/bitrix/www/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2019-01-20 00:15:24 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:15:27 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require_once(string)
+	/home/bitrix/www/bitrix/modules/conversion/tools/conversion/ajax_counter.php:35
+#4: require(string)
+	/home/bitrix/www/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2019-01-20 00:16:05 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:16:08 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require_once(string)
+	/home/bitrix/www/bitrix/modules/conversion/tools/conversion/ajax_counter.php:35
+#4: require(string)
+	/home/bitrix/www/bitrix/tools/conversion/ajax_counter.php:1
+----------
+2019-01-20 00:16:27 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:17:09 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:30:39 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 00:30:56 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#4: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#5: require(string)
+	/home/bitrix/www/catalog/index.php:205
+#6: include_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/urlrewrite.php:159
+#7: include_once(string)
+	/home/bitrix/www/bitrix/urlrewrite.php:2
+----------
+2019-01-20 18:44:55 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:318
+#5: CAllMain->AuthForm(boolean)
+	/home/bitrix/www/bitrix/modules/main/include.php:1
+#6: require_once(string)
+	/home/bitrix/www/bitrix/modules/main/include/prolog_admin_before.php:28
+#7: require_once(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:15
+#8: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 18:45:12 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 18:45:18 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/interface/user_options.php:26
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/user_options.php:1
+----------
+2019-01-20 18:45:21 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/socialservices/tools/socserv.ajax.php:136
+#4: require(string)
+	/home/bitrix/www/bitrix/tools/oauth/socserv.ajax.php:1
+----------
+2019-01-20 18:45:44 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#5: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 18:45:45 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/interface/user_options.php:26
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/user_options.php:1
+----------
+2019-01-20 18:46:22 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/interface/user_options.php:26
+#4: require(string)
+	/home/bitrix/www/bitrix/admin/user_options.php:1
+----------
+2019-01-20 18:46:28 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 18:46:42 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#5: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 18:46:45 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 18:48:26 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#5: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 18:48:33 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require_once(string)
+	/home/bitrix/www/bitrix/modules/seo/admin/seo_search_yandex_direct.php:543
+#5: require(string)
+	/home/bitrix/www/bitrix/admin/seo_search_yandex_direct.php:1
+----------
+2019-01-20 18:48:38 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 18:49:53 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 18:50:16 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to a member function isPageFound() on null (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:22
+#0: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#1: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#2: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#3: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#4: require(string)
+	/home/bitrix/www/bitrix/modules/main/admin/partner_modules.php:560
+#5: require_once(string)
+	/home/bitrix/www/bitrix/admin/partner_modules.php:2
+----------
+2019-01-20 19:03:10 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Seo\Repositories\HighloadBlockTable' not found (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:15
+#0: Aniart\Seo\Repositories\SeoPagesRepository->__construct(integer)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:25
+#1: Bitrix\Main\Loader::{closure}(object)
+	
+#2: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#3: Aniart\Main\ServiceLocator->make(string, array)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#6: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#7: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#8: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#9: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#10: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:33
+#11: Bitrix\Main\Loader::{closure}(object)
+	
+#12: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#13: Aniart\Main\ServiceLocator->make(string, array)
+	
+#14: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#15: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#16: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#17: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#18: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#19: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#20: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#21: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#22: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 19:10:00 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Seo\HlSettings' not found (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:21
+#0: Aniart\Seo\Repositories\SeoPagesRepository->__construct(integer)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:25
+#1: Bitrix\Main\Loader::{closure}(object)
+	
+#2: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#3: Aniart\Main\ServiceLocator->make(string, array)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#6: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#7: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#8: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#9: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#10: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:33
+#11: Bitrix\Main\Loader::{closure}(object)
+	
+#12: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#13: Aniart\Main\ServiceLocator->make(string, array)
+	
+#14: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#15: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#16: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#17: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#18: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#19: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#20: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#21: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#22: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 19:10:48 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected '=' (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/hlsettings.php:236
+#0: Bitrix\Main\Loader::autoLoad(string)
+	
+#1: spl_autoload_call(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:21
+#2: Aniart\Seo\Repositories\SeoPagesRepository->__construct(integer)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:25
+#3: Bitrix\Main\Loader::{closure}(object)
+	
+#4: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#5: Aniart\Main\ServiceLocator->make(string, array)
+	
+#6: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#7: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#8: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#9: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#10: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#11: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#12: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:33
+#13: Bitrix\Main\Loader::{closure}(object)
+	
+#14: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#15: Aniart\Main\ServiceLocator->make(string, array)
+	
+#16: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#17: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#18: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#19: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#20: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#21: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#22: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#23: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#24: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 19:13:50 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Cannot access protected property Aniart\Seo\SmartSeo\HlSettings::$hlTableName (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:21
+#0: Aniart\Seo\Repositories\SeoPagesRepository->__construct(integer)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:25
+#1: Bitrix\Main\Loader::{closure}(object)
+	
+#2: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#3: Aniart\Main\ServiceLocator->make(string, array)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#6: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#7: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#8: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#9: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#10: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:33
+#11: Bitrix\Main\Loader::{closure}(object)
+	
+#12: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#13: Aniart\Main\ServiceLocator->make(string, array)
+	
+#14: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#15: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#16: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#17: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#18: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#19: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#20: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#21: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#22: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 19:15:12 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Cannot access protected property Aniart\Seo\SmartSeo\HlSettings::$hlTableName (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:21
+#0: Aniart\Seo\Repositories\SeoPagesRepository->__construct(integer)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:25
+#1: Bitrix\Main\Loader::{closure}(object)
+	
+#2: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#3: Aniart\Main\ServiceLocator->make(string, array)
+	
+#4: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#5: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#6: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#7: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#8: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#9: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#10: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:33
+#11: Bitrix\Main\Loader::{closure}(object)
+	
+#12: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#13: Aniart\Main\ServiceLocator->make(string, array)
+	
+#14: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#15: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#16: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#17: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#18: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#19: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#20: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#21: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#22: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 19:15:35 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [TypeError] 
+Argument 1 passed to Bitrix\Highloadblock\HighloadBlockTable::add() must be of the type array, string given, called in /home/bitrix/www/local/modules/aniart.seo/lib/smartseo/hlsettings.php on line 223 (0)
+/home/bitrix/www/bitrix/modules/highloadblock/lib/highloadblock.php:78
+#0: Bitrix\Highloadblock\HighloadBlockTable::add(string, string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/hlsettings.php:223
+#1: Aniart\Seo\SmartSeo\HlSettings::createHLBlockFromSettings()
+	/home/bitrix/www/local/modules/aniart.seo/lib/repositories/seopagesrepository.php:31
+#2: Aniart\Seo\Repositories\SeoPagesRepository->__construct(integer)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:25
+#3: Bitrix\Main\Loader::{closure}(object)
+	
+#4: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#5: Aniart\Main\ServiceLocator->make(string, array)
+	
+#6: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#7: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#8: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:25
+#9: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::obtainPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:18
+#10: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository::getPages()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/repositories/hlblockpagesrepository.php:31
+#11: Aniart\Seo\SmartSeo\Repositories\HLBlockPagesRepository->getByUri(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#12: Aniart\Seo\SmartSeo\SmartSeo->init(object)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:33
+#13: Bitrix\Main\Loader::{closure}(object)
+	
+#14: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#15: Aniart\Main\ServiceLocator->make(string, array)
+	
+#16: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#17: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#18: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#19: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#20: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#21: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin_after.php:22
+#22: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_admin.php:5
+#23: require_once(string)
+	/home/bitrix/www/bitrix/modules/highloadblock/admin/highloadblock_index.php:121
+#24: require(string)
+	/home/bitrix/www/bitrix/admin/highloadblock_index.php:1
+----------
+2019-01-20 19:44:46 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Seo\SmartSeo\Expressions\FieldExpression' not found (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/parser.php:28
+#0: Aniart\Seo\SmartSeo\Parser->parse()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/page.php:122
+#1: Aniart\Seo\SmartSeo\Page->doCompile(string, string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/page.php:116
+#2: Aniart\Seo\SmartSeo\Page->doCompile(array)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/page.php:99
+#3: Aniart\Seo\SmartSeo\Page->compile(array)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:53
+#4: Aniart\Seo\SmartSeo\SmartSeo->obtainPageMeta(array, NULL)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:62
+#5: Aniart\Seo\SmartSeo\SmartSeo->getPageMeta()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#6: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#7: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#8: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#10: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#11: require(string)
+	/home/bitrix/www/index.php:154
+----------
+2019-01-20 19:45:53 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [ParseError] 
+syntax error, unexpected ';', expecting ',' or ')' (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:22
+#0: Bitrix\Main\Loader::autoLoad(string)
+	
+#1: spl_autoload_call(string)
+	/home/bitrix/www/local/modules/aniart.seo/include.php:28
+#2: Bitrix\Main\Loader::{closure}(object)
+	
+#3: call_user_func_array(object, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/servicelocator.php:98
+#4: Aniart\Main\ServiceLocator->make(string, array)
+	
+#5: call_user_func_array(array, array)
+	/home/bitrix/www/local/modules/aniart.main/lib/app.php:121
+#6: Aniart\Main\App->__call(string, array)
+	/home/bitrix/www/local/modules/aniart.main/misc.php:34
+#7: app(string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:20
+#8: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#9: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#10: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#11: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#12: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#13: require(string)
+	/home/bitrix/www/index.php:154
+----------
+2019-01-20 20:01:25 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Seo\SmartSeo\Expressions\FieldExpression' not found (0)
+/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/parser.php:28
+#0: Aniart\Seo\SmartSeo\Parser->parse()
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/page.php:122
+#1: Aniart\Seo\SmartSeo\Page->doCompile(string, string)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/page.php:116
+#2: Aniart\Seo\SmartSeo\Page->doCompile(array)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/page.php:99
+#3: Aniart\Seo\SmartSeo\Page->compile(array)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:55
+#4: Aniart\Seo\SmartSeo\SmartSeo->obtainPageMeta(array, NULL)
+	/home/bitrix/www/local/modules/aniart.seo/lib/smartseo/smartseo.php:64
+#5: Aniart\Seo\SmartSeo\SmartSeo->getPageMeta()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:24
+#6: Aniart\Seo\Observers\BitrixObserver::setSeoParams()
+	/home/bitrix/www/local/modules/aniart.seo/lib/observers/bitrixobserver.php:12
+#7: Aniart\Seo\Observers\BitrixObserver::onEpilog()
+	/home/bitrix/www/bitrix/modules/main/classes/general/module.php:475
+#8: ExecuteModuleEventEx(array)
+	/home/bitrix/www/bitrix/modules/main/include/epilog_after.php:10
+#9: require(string)
+	/home/bitrix/www/bitrix/modules/main/include/epilog.php:3
+#10: require_once(string)
+	/home/bitrix/www/bitrix/footer.php:4
+#11: require(string)
+	/home/bitrix/www/index.php:154
+----------

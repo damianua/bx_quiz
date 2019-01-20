@@ -1,15 +1,15 @@
 <?php
 
 
-namespace Aniart\Main\Multilang\Models;
+namespace Aniart\Seo\Multilang\Models;
 
+use Aniart\Main\Multilang\Models\IblockSectionModelML as MainIblockSectionModelML;
+use Aniart\Seo\Multilang\Interfaces\SeoParamsMLInterface;
+use Aniart\Seo\Multilang\MultiLangSeoParamsTrait;
 
-use Aniart\Main\Models\IblockSectionModel;
-use Aniart\Main\Multilang\I18n;
-use Aniart\Main\Multilang\Interfaces\MultilangInterface;
-
-class IblockSectionModelML extends IblockSectionModel implements MultilangInterface
+class IblockSectionModelML extends MainIblockSectionModelML implements SeoParamsMLInterface
 {
+    use MultiLangSeoParamsTrait;
     /**
      * @var I18n
      */

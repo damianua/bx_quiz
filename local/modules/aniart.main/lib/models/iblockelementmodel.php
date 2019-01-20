@@ -1,16 +1,13 @@
 <?php 
 namespace Aniart\Main\Models;
 
-use Aniart\Main\Interfaces\SeoParamsInterface;
 use Aniart\Main\Interfaces\VisitableInterface;
 use Aniart\Main\Interfaces\VisitorInterface;
 use Aniart\Main\Models\IblockSectionModel as Section;
-use Bitrix\Iblock\InheritedProperty\ElementValues;
 
-class IblockElementModel extends AbstractModel implements VisitableInterface, SeoParamsInterface
+class IblockElementModel extends AbstractModel implements VisitableInterface
 {
 	protected $sections;
-    protected $seoParams;
 
     public function getId()
     {
@@ -120,50 +117,6 @@ class IblockElementModel extends AbstractModel implements VisitableInterface, Se
             $result = $propValue;
         }
         return $result;
-    }
-
-    public function getPageTitle(){
-        return $this->getSeoParamValue('ELEMENT_PAGE_TITLE');
-    }
-
-    public function getMetaTitle(){
-        return $this->getSeoParamValue('ELEMENT_META_TITLE');
-    }
-
-    public function getKeywords(){
-        return $this->getSeoParamValue('ELEMENT_META_KEYWORDS');
-    }
-
-    public function getDescription(){
-        return $this->getSeoParamValue('ELEMENT_META_DESCRIPTION');
-    }
-
-    protected function getSeoParamValue($paramName)
-    {
-        $this->getSeoParams();
-        return $this->seoParams[$paramName];
-    }
-
-    public function getSeoParams()
-    {
-        if(is_null($this->seoParams)){
-            $this->obtainSeoParams();
-        }
-        return $this->seoParams;
-    }
-
-    public function obtainSeoParams()
-    {
-        $seoParamsValues = array();
-        if(($iblockId = $this->getIblockId()) && ($id = $this->getId())) {
-            $seoParams = new ElementValues($iblockId, $id);
-            if ($seoParams) {
-                $seoParamsValues = $seoParams->getValues();
-            }
-        }
-        $this->seoParams = $seoParamsValues;
-
-        return $this;
     }
 }
 ?>

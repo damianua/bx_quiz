@@ -20,7 +20,7 @@ function registry($key = null, $value = null, $const = false) {
 }
 
 /**
- * Если задан $abstract, то выполняется метод \Aniart\Main\App::make($abstract, $parans), в противном случае
+ * Если задан $abstract, то выполняется метод \Aniart\Main\App::make($abstract, $params), в противном случае
  * возвращается экземпляр класса \Aniart\Main\App
  * @param string|null $abstract абстрактное представление сущности
  * @param array $params дополнительные параметры для создания сущности
@@ -32,21 +32,4 @@ function app($abstract = null, $params = array()) {
 		return $app;
 	}
 	return $app->make($abstract, $params);
-}
-
-function seo($paramName = null, $paramValue = null, $overwrite = false)
-{
-    /**
-     * @var \Aniart\Main\Seo\SeoParamsCollector $seo;
-     */
-    $seo = app('SeoParamsCollector');
-    if(!is_null($paramName)){
-        if(is_null($paramValue)){
-            return $seo->getParamValue($paramName);
-        }
-        else{
-            return $seo->setParamsValue($paramName, $paramValue, $overwrite);
-        }
-    }
-    return $seo;
 }

@@ -1,10 +1,9 @@
 <?php 
 namespace Aniart\Main\Models;
 
-use Aniart\Main\Interfaces\SeoParamsInterface;
 use Bitrix\Iblock\InheritedProperty\SectionValues;
 
-class IblockSectionModel extends AbstractModel implements SeoParamsInterface
+class IblockSectionModel extends AbstractModel
 {
 	public function getId()
 	{
@@ -53,48 +52,4 @@ class IblockSectionModel extends AbstractModel implements SeoParamsInterface
 	{
 		return $this->PREVIEW_PICTURE;
 	}
-
-    public function getPageTitle(){
-        return $this->getSeoParamValue('SECTION_PAGE_TITLE');
-    }
-
-    public function getMetaTitle(){
-        return $this->getSeoParamValue('SECTION_META_TITLE');
-    }
-
-    public function getKeywords(){
-        return $this->getSeoParamValue('SECTION_META_KEYWORDS');
-    }
-
-    public function getDescription(){
-        return $this->getSeoParamValue('SECTION_META_DESCRIPTION');
-    }
-
-    protected function getSeoParamValue($paramName)
-    {
-        $this->getSeoParams();
-        return $this->seoParams[$paramName];
-    }
-
-    protected function getSeoParams()
-    {
-        if(is_null($this->seoParams)){
-            $this->obtainSeoParams();
-        }
-        return $this->seoParams;
-    }
-
-    protected function obtainSeoParams()
-    {
-        $seoParamsValues = array();
-        if(($iblockId = $this->getIblockId()) && ($id = $this->getId())){
-            $seoParams = new SectionValues($iblockId, $id);
-            if($seoParams){
-                $seoParamsValues = $seoParams->getValues();
-            }
-        }
-        $this->seoParams = $seoParamsValues;
-
-        return $this;
-    }
 }

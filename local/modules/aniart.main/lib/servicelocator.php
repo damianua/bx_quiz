@@ -89,18 +89,20 @@ class ServiceLocator implements ServiceLocatorInterface
         }
 
         extract($this->bindings[$abstract]);
-        if(is_string($concrete)){
+        if (is_string($concrete))
+        {
             $object = $this->newInstance($concrete, $params);
-        }
-        elseif(is_callable($concrete)){
+        } elseif (is_callable($concrete))
+        {
             $params = array_merge(array($this), $params);
             $object = call_user_func_array($concrete, $params);
-        }
-        else{
+        } else
+        {
             $object = $concrete;
         }
 
-        if($shared){
+        if ($shared)
+        {
             $this->instances[$abstract] = $object;
         }
 
