@@ -14,14 +14,14 @@
 			var _this = this;
 			var productId = this.$el.data('id');
 			this.$delete = this.$el.find(this.deleteSelector);
-			this.$delete.on('click', function(){
+            this.$delete.on('click', function(){
 				$.post(_this.ajaxHandler, {
 					handler: 'reсent_viewed',
-					f: 'deleteItem',
+					func: 'deleteItem',
 					productId: productId
 				}, function(response){
-					// в случае успешного запроса скрываем удаленный (текущий элемент)
-				}, 'json')
+					_this.$el.fadeOut();
+				}, 'json');
 			});
 		}
 

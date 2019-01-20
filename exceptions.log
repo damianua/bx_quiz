@@ -1538,3 +1538,219 @@ Class 'Aniart\Seo\SmartSeo\Expressions\FieldExpression' not found (0)
 #11: require(string)
 	/home/bitrix/www/index.php:154
 ----------
+2019-01-20 22:53:11 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Main\Loader' not found (0)
+/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/result_modifier.php:6
+#0: include
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:877
+#1: CBitrixComponentTemplate->__IncludeMutatorFile(array, array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:784
+#2: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#3: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#4: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#5: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#6: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#7: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-20 22:54:25 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method CBitrixComponentTemplate::getSiteId() (0)
+/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/result_modifier.php:30
+#0: include
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:877
+#1: CBitrixComponentTemplate->__IncludeMutatorFile(array, array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:784
+#2: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#3: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#4: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#5: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#6: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#7: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-20 23:04:24 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Main\Repositories\ProductsRepository' not found (0)
+/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/result_modifier.php:49
+#0: include
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:877
+#1: CBitrixComponentTemplate->__IncludeMutatorFile(array, array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:784
+#2: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#3: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#4: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#5: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#6: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#7: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-20 23:31:36 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Main\Models\CFile' not found (0)
+/home/bitrix/www/local/modules/aniart.main/lib/models/stubproduct.php:24
+#0: Aniart\Main\Models\StubProduct->getPreviewPicture()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/template.php:22
+#1: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:720
+#2: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:815
+#3: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#4: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#5: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#6: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#7: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#8: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#9: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-20 23:31:44 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Main\Models\CFile' not found (0)
+/home/bitrix/www/local/modules/aniart.main/lib/models/stubproduct.php:24
+#0: Aniart\Main\Models\StubProduct->getPreviewPicture()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/template.php:22
+#1: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:720
+#2: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:815
+#3: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#4: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#5: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#6: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#7: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#8: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#9: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-20 23:32:05 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Main\Models\CFile' not found (0)
+/home/bitrix/www/local/modules/aniart.main/lib/models/stubproduct.php:24
+#0: Aniart\Main\Models\StubProduct->getPreviewPicture()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/template.php:22
+#1: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:720
+#2: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:815
+#3: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#4: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#5: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#6: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#7: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#8: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#9: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-20 23:38:30 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Call to undefined method Aniart\Main\Models\StubProduct::getId() (0)
+/home/bitrix/www/local/components/aniart/catalog.recent_viewed/templates/.default/template.php:34
+#0: include
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:720
+#1: CBitrixComponentTemplate->__IncludePHPTemplate(array, array, string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component_template.php:815
+#2: CBitrixComponentTemplate->IncludeTemplate(array)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:735
+#3: CBitrixComponent->showComponentTemplate()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:683
+#4: CBitrixComponent->includeComponentTemplate()
+	/home/bitrix/www/local/components/aniart/catalog.recent_viewed/component.php:4
+#5: include(string)
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:594
+#6: CBitrixComponent->__includeComponent()
+	/home/bitrix/www/bitrix/modules/main/classes/general/component.php:653
+#7: CBitrixComponent->includeComponent(string, array, boolean)
+	/home/bitrix/www/bitrix/modules/main/classes/general/main.php:1043
+#8: CAllMain->IncludeComponent(string, string, array, boolean)
+	/home/bitrix/www/index.php:159
+----------
+2019-01-21 00:15:11 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Empty primary found when trying to query CatalogViewedProduct row. (100)
+/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:596
+#0: Bitrix\Main\ORM\Data\DataManager::validatePrimary(array)
+	/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:1149
+#1: Bitrix\Main\ORM\Data\DataManager::delete()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/handlers/recentviewedajaxhandler.php:16
+#2: Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler->deleteItem()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/abstractajaxhandler.php:63
+#3: Aniart\Main\Ajax\AbstractAjaxHandler->start()
+	/home/bitrix/www/ajax/common.php:10
+----------
+2019-01-21 00:15:14 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Empty primary found when trying to query CatalogViewedProduct row. (100)
+/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:596
+#0: Bitrix\Main\ORM\Data\DataManager::validatePrimary(array)
+	/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:1149
+#1: Bitrix\Main\ORM\Data\DataManager::delete()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/handlers/recentviewedajaxhandler.php:16
+#2: Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler->deleteItem()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/abstractajaxhandler.php:63
+#3: Aniart\Main\Ajax\AbstractAjaxHandler->start()
+	/home/bitrix/www/ajax/common.php:10
+----------
+2019-01-21 00:15:14 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Empty primary found when trying to query CatalogViewedProduct row. (100)
+/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:596
+#0: Bitrix\Main\ORM\Data\DataManager::validatePrimary(array)
+	/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:1149
+#1: Bitrix\Main\ORM\Data\DataManager::delete()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/handlers/recentviewedajaxhandler.php:16
+#2: Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler->deleteItem()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/abstractajaxhandler.php:63
+#3: Aniart\Main\Ajax\AbstractAjaxHandler->start()
+	/home/bitrix/www/ajax/common.php:10
+----------
+2019-01-21 00:15:25 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Bitrix\Main\ArgumentException] 
+Empty primary found when trying to query CatalogViewedProduct row. (100)
+/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:596
+#0: Bitrix\Main\ORM\Data\DataManager::validatePrimary(array)
+	/home/bitrix/www/bitrix/modules/main/lib/orm/data/datamanager.php:1149
+#1: Bitrix\Main\ORM\Data\DataManager::delete()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/handlers/recentviewedajaxhandler.php:16
+#2: Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler->deleteItem()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/abstractajaxhandler.php:63
+#3: Aniart\Main\Ajax\AbstractAjaxHandler->start()
+	/home/bitrix/www/ajax/common.php:10
+----------
+2019-01-21 00:46:33 - Host: 192.168.127.128:80 - UNCAUGHT_EXCEPTION - [Error] 
+Class 'Aniart\Main\Ajax\Handlers\CSaleBasket' not found (0)
+/home/bitrix/www/local/modules/aniart.main/lib/ajax/handlers/recentviewedajaxhandler.php:31
+#0: Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler->deleteItem()
+	/home/bitrix/www/local/modules/aniart.main/lib/ajax/abstractajaxhandler.php:63
+#1: Aniart\Main\Ajax\AbstractAjaxHandler->start()
+	/home/bitrix/www/ajax/common.php:10
+----------

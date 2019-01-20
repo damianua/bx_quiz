@@ -26,5 +26,5 @@ app()->singleton([
 //Ajax-обработчики
 \Aniart\Main\Ajax\AjaxHandlerFactory::init([
 	'basket' => '\Aniart\Main\Ajax\Handlers\BasketAjaxHandler',
-	'recent_viewed' => '\Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler'
+	'reсent_viewed' => '\Aniart\Main\Ajax\Handlers\RecentViewedAjaxHandler'
 ]);

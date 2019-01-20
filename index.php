@@ -151,4 +151,13 @@ $APPLICATION->SetTitle("Интернет-магазин \"Одежда\"");
 	),
 	false
 );?>
+
+<?$APPLICATION->IncludeComponent(
+    "aniart:catalog.recent_viewed",
+    ".default",
+    array(),
+    false
+);
+?>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
