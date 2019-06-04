@@ -1,8 +1,8 @@
 <?php
-namespace Aniart\Main\Seo;
+namespace Aniart\SEO\Seo;
 
-use Aniart\Main\Interfaces\SeoParamsInterface;
-use Bitrix\Main\Type\ParameterDictionary;
+use Aniart\MAIN\Interfaces\SeoParamsInterface;
+use Bitrix\MAIN\Type\ParameterDictionary;
 
 class SeoParamsCollector extends ParameterDictionary
 {
@@ -50,6 +50,9 @@ class SeoParamsCollector extends ParameterDictionary
                 } elseif ($key == 'meta_title') {
                     $APPLICATION->SetTitle($value);
                 } else {
+					if ($key == 'page_title') {
+						$key = 'title';
+					}
                     $APPLICATION->SetPageProperty($key, $value);
                 }
             }

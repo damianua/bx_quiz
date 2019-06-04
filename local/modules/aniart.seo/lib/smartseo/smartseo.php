@@ -1,6 +1,6 @@
 <?php 
 
-namespace Aniart\Main\SmartSeo;
+namespace Aniart\SEO\SmartSeo;
 
 use Aniart\Main\SmartSeo\Interfaces\PagesRepositoryInterface;
 use Aniart\Main\Traits\Singleton;

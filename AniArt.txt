@@ -1,0 +1,33 @@
+1. SeoPage - устанавливает сео данные:
+SeoPage::getPageTitle()  - НЕ РАБОТАЕТ!!
+SeoPage::getMetaTitle()
+SeoPage::getKeywords()
+SeoPage::getDescription()
+
+2. SeoPagesRepository: генерирует данные для SeoPage
+
+
+3.Для работы модуля нужно создать Highload таблицу(или сменить функцию на json) с полями:
+UF_PAGE
+UF_PAGE_TITLE
+UF_SORT
+UF_META_TITLE
+UF_KEYWORDS
+UF_DESCRIPTION
+
+и id таблицы прописать в переменную HL_SEO_PAGES_ID  (vars.php)
+
+4. для установки pagetitle ( getPageTitle() ) нужно добавить, в файл /lib/seo/seoparamscollector.php, после 52 строки:
+if ($key == 'page_title') {
+	$key = 'title';
+}
+
+
+
+
+
+Для работы созданного модуля нужно заполнить поля в Highload-таблице ( http://prntscr.com/nxaxsl )
+
+
+
+
